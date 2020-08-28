@@ -5,8 +5,8 @@ on:
     branches: master
   watch:
     types: started
-  schedule:
-    - cron: 15 20 * * *
+  #schedule:
+    #- cron: 15 20 * * *
 
 jobs:
   IBM-Cloud-CF-APP-Restart:
